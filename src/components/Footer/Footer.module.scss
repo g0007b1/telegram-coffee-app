@@ -1,0 +1,27 @@
+.footerContainer {
+    height: 100px;
+    width: 100%;
+    // position: fixed;
+    // border-bottom: 7px dotted;
+    top: 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.iconLink {
+    color: black;
+}
+
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+.shakingGift {
+    animation: tilt-shaking 0.5s infinite;
+}

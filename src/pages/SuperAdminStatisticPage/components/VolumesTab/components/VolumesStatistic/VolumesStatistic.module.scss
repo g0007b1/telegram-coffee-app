@@ -1,0 +1,16 @@
+.volumesStatisticContainer {
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+}
+
+.bold {
+    font-weight: bold;
+}

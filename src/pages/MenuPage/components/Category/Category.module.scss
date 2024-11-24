@@ -1,0 +1,19 @@
+.categoryContainer {
+    padding: 0 30px;
+}
+
+.categoryHeader {
+    font-family: 'Avenir Next Cyr';
+    font-weight: bold;
+    font-style: normal;
+    border-bottom: 1px solid;
+    padding: 0 0 10px 0;
+    text-align: center;
+}
+
+.categoriesContainer {
+    display: flex;
+    margin: 0 auto;
+    padding-left: 0;  
+    flex-wrap: wrap;
+}

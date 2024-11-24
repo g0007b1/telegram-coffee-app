@@ -1,0 +1,37 @@
+.item {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.namePrice {
+    width: 100%;
+}
+
+.header {
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.marginContainer {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.volumeName {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bold {
+    font-size: small;
+    font-weight: bold;
+}
+
+.margin {
+    margin-top: 20px;
+}

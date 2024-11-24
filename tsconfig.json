@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "components/*": ["components/*"],
+      "pages/*": ["pages/*"],
+      "router/*": ["router/*"],
+      "utils/*": ["utils/*"],
+      "panels/*": ["panels/*"],
+      "modals/*": ["modals/*"],
+      "hooks/*": ["hooks/*"],
+      "assets/*": ["assets/*"],
+      "api/*": ["api/*"],
+      "css/*": ["css/*"],
+      "types/*": ["types/*"],
+      "i18n/*": ["i18n/*"],
+      "forms/*": ["forms/*"],
+      "hocs/*": ["hocs/*"]
+    },
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    // "noFallthroughCasesInSwitch": true
+  },
+  "include": [
+    "vite.config.ts",
+    ".eslintrc.cjs",
+    "src"
+  ], 
+  
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

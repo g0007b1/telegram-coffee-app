@@ -1,0 +1,28 @@
+.selectAdminCardContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 3px dotted;
+    padding: 10px;
+}
+
+.selected {
+    border: 3px solid #04AA6D;
+}
+
+.rightsList {
+    padding: 0;
+    margin: 0;
+}
+
+.iconName {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+}
+
+.name {
+    width: 80px;
+    text-align: center;
+}

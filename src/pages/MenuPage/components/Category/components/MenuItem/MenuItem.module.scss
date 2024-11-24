@@ -1,0 +1,28 @@
+.menuItemContainer {
+    width: calc(100% / 3);
+    // height: 100px;
+    padding: 3px;
+    font-family: 'Avenir Next Cyr';
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;   
+    list-style-type: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.image {
+    border-radius: 20%;
+    width: 100%;
+}
+
+.coffeeName {
+    margin: 0;
+}
+
+.itemContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

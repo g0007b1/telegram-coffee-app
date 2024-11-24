@@ -1,0 +1,14 @@
+.addNewItemContainer {
+    width: calc(100% / 3);
+    padding: 10px;
+    font-family: 'Avenir Next Cyr';
+    font-weight: normal;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    list-style-type: none;
+    box-sizing: border-box;
+    text-align: center;
+    padding-bottom: 30px;
+}

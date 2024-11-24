@@ -1,0 +1,41 @@
+.mostPurchaseContainer {
+    padding: 0 20px;
+    display: flex;
+}
+
+.listContainer{
+    width: 50%;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.borderLeft {
+    border-left: 1px solid;
+}
+
+.header {
+    text-align: center;
+}
+
+.purchase {
+    display: flex;
+    gap: 5px;
+}
+
+.namePrice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 5px
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 10px;
+}
