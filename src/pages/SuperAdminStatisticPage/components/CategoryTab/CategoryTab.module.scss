@@ -1,0 +1,30 @@
+.categoryTabContainer {
+    font-family: 'Avenir Next Cyr';
+    font-weight: normal;
+    font-style: normal;
+    padding: 0 20px;
+}
+
+.item {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px
+}
+
+.namePrice {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header {
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.marginContainer {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,23 @@
+.button {
+    font-family: 'Avenir Next Cyr';
+    font-weight: normal;
+    font-style: normal;
+    margin-left: 30px;
+    width: max-content;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: #04AA6D;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.span {
+    padding-bottom: 2px;
+}
+
+.disabled {
+    background-color: gray;
+}

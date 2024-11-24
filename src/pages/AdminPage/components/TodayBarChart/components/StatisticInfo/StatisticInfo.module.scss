@@ -1,0 +1,19 @@
+.statisticInfoContainer {
+    padding: 0px 80px;
+}
+
+.statItem {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    padding: 5px 0
+}
+
+.dotted {
+    width: 100%;
+    border-bottom: 2px dotted;
+}
+
+.bold {
+    font-weight: bold;
+}

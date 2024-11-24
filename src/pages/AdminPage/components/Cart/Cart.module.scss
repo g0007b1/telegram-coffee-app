@@ -1,0 +1,21 @@
+.cartContainer {
+    position: sticky;
+    bottom: 30px;
+    width: 150px;
+    left: calc(50% - 75px);
+    height: 50px;
+    background-color: #04AA6D;
+    border-radius: 30px;
+    color: white;
+    font-family: 'Avenir Next Cyr';
+    font-weight: normal;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+.disabled {
+    background-color: gray
+}

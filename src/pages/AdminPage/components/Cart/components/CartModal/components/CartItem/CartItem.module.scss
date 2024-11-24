@@ -1,0 +1,39 @@
+.itemName {
+    text-align: start;
+    width: 100%;
+    font-size: large;
+}
+
+.itemContainer {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+}
+
+.buttonsPriceContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.buttonsContainer {
+    display: flex;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    width: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

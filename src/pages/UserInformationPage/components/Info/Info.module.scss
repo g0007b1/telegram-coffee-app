@@ -1,0 +1,16 @@
+.avatar {
+    border: 2px solid;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}
+
+.infoContainer {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.bold {
+    font-weight: bold;
+}

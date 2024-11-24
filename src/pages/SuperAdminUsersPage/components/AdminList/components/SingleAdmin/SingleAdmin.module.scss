@@ -1,0 +1,30 @@
+.singleAdminContainer {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-family: 'Avenir Next Cyr';
+    font-weight: normal;
+    font-style: normal;
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+.adminInfoRemoveContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.svgAdmin {
+    padding: 3px;
+    display: flex;
+    border: 2px solid;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}

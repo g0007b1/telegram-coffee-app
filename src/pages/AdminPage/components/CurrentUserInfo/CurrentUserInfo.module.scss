@@ -1,0 +1,16 @@
+.currentUserInfoContainer {
+    font-family: 'Avenir Next Cyr';
+    font-weight: normal;
+    font-style: normal;
+    padding: 0 30px 30px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 7px dotted;
+}
+
+.bold {
+    font-weight: bold;
+}

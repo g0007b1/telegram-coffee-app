@@ -1,0 +1,15 @@
+.listMenuItemContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.buttonsContainer {
+    display: flex;
+    gap: 3px;
+}
+
+.name {
+    font-size: smaller;
+}

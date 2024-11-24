@@ -1,0 +1,36 @@
+.adminPageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    display: inline-flex;
+    transition: opacity ease-in 100ms;
+    align-items: center;
+    justify-content: center;
+  
+  
+    &:disabled {
+      cursor: auto;
+    }
+  }
+  
+  .cameraIconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: black;
+  }
