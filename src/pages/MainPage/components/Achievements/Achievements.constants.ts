@@ -15,7 +15,7 @@ type AchievementsType = AchievementType[];
 
 export const achievements: AchievementsType = [
     {
-        name: 'ЧАКО-вец',
+        name: 'Кофелюб',
         description: 'Зарегистрируйся в приложении',
         needAmount: 0,
         image: capybara1,
